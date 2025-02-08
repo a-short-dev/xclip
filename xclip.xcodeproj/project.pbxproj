@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		22D2E5C52D574E9500CD773E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D2E5AB2D574E9100CD773E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D2E5B22D574E9100CD773E;
+			remoteInfo = xclip;
+		};
+		22D2E5CF2D574E9500CD773E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22D2E5AB2D574E9100CD773E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D2E5B22D574E9100CD773E;
+			remoteInfo = xclip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22D2E5B32D574E9100CD773E /* xclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xclip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D2E5C42D574E9500CD773E /* xclipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xclipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D2E5CE2D574E9500CD773E /* xclipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xclipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		22D2E5B52D574E9100CD773E /* xclip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xclip;
+			sourceTree = "<group>";
+		};
+		22D2E5C72D574E9500CD773E /* xclipTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xclipTests;
+			sourceTree = "<group>";
+		};
+		22D2E5D12D574E9500CD773E /* xclipUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = xclipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D2E5B02D574E9100CD773E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D2E5C12D574E9500CD773E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D2E5CB2D574E9500CD773E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D2E5AA2D574E9100CD773E = {
+			isa = PBXGroup;
+			children = (
+				22D2E5B52D574E9100CD773E /* xclip */,
+				22D2E5C72D574E9500CD773E /* xclipTests */,
+				22D2E5D12D574E9500CD773E /* xclipUITests */,
+				22D2E5B42D574E9100CD773E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22D2E5B42D574E9100CD773E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D2E5B32D574E9100CD773E /* xclip.app */,
+				22D2E5C42D574E9500CD773E /* xclipTests.xctest */,
+				22D2E5CE2D574E9500CD773E /* xclipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D2E5B22D574E9100CD773E /* xclip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D2E5D82D574E9500CD773E /* Build configuration list for PBXNativeTarget "xclip" */;
+			buildPhases = (
+				22D2E5AF2D574E9100CD773E /* Sources */,
+				22D2E5B02D574E9100CD773E /* Frameworks */,
+				22D2E5B12D574E9100CD773E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				22D2E5B52D574E9100CD773E /* xclip */,
+			);
+			name = xclip;
+			packageProductDependencies = (
+			);
+			productName = xclip;
+			productReference = 22D2E5B32D574E9100CD773E /* xclip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22D2E5C32D574E9500CD773E /* xclipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D2E5DB2D574E9500CD773E /* Build configuration list for PBXNativeTarget "xclipTests" */;
+			buildPhases = (
+				22D2E5C02D574E9500CD773E /* Sources */,
+				22D2E5C12D574E9500CD773E /* Frameworks */,
+				22D2E5C22D574E9500CD773E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D2E5C62D574E9500CD773E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22D2E5C72D574E9500CD773E /* xclipTests */,
+			);
+			name = xclipTests;
+			packageProductDependencies = (
+			);
+			productName = xclipTests;
+			productReference = 22D2E5C42D574E9500CD773E /* xclipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22D2E5CD2D574E9500CD773E /* xclipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D2E5DE2D574E9500CD773E /* Build configuration list for PBXNativeTarget "xclipUITests" */;
+			buildPhases = (
+				22D2E5CA2D574E9500CD773E /* Sources */,
+				22D2E5CB2D574E9500CD773E /* Frameworks */,
+				22D2E5CC2D574E9500CD773E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22D2E5D02D574E9500CD773E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				22D2E5D12D574E9500CD773E /* xclipUITests */,
+			);
+			name = xclipUITests;
+			packageProductDependencies = (
+			);
+			productName = xclipUITests;
+			productReference = 22D2E5CE2D574E9500CD773E /* xclipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D2E5AB2D574E9100CD773E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					22D2E5B22D574E9100CD773E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					22D2E5C32D574E9500CD773E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 22D2E5B22D574E9100CD773E;
+					};
+					22D2E5CD2D574E9500CD773E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 22D2E5B22D574E9100CD773E;
+					};
+				};
+			};
+			buildConfigurationList = 22D2E5AE2D574E9100CD773E /* Build configuration list for PBXProject "xclip" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22D2E5AA2D574E9100CD773E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 22D2E5B42D574E9100CD773E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D2E5B22D574E9100CD773E /* xclip */,
+				22D2E5C32D574E9500CD773E /* xclipTests */,
+				22D2E5CD2D574E9500CD773E /* xclipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D2E5B12D574E9100CD773E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D2E5C22D574E9500CD773E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D2E5CC2D574E9500CD773E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D2E5AF2D574E9100CD773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D2E5C02D574E9500CD773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22D2E5CA2D574E9500CD773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D2E5C62D574E9500CD773E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D2E5B22D574E9100CD773E /* xclip */;
+			targetProxy = 22D2E5C52D574E9500CD773E /* PBXContainerItemProxy */;
+		};
+		22D2E5D02D574E9500CD773E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D2E5B22D574E9100CD773E /* xclip */;
+			targetProxy = 22D2E5CF2D574E9500CD773E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22D2E5D62D574E9500CD773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22D2E5D72D574E9500CD773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		22D2E5D92D574E9500CD773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xclip/xclip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xclip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantum-cities.xclip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22D2E5DA2D574E9500CD773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xclip/xclip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"xclip/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantum-cities.xclip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		22D2E5DC2D574E9500CD773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantum-cities.xclipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xclip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xclip";
+			};
+			name = Debug;
+		};
+		22D2E5DD2D574E9500CD773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantum-cities.xclipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xclip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xclip";
+			};
+			name = Release;
+		};
+		22D2E5DF2D574E9500CD773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantum-cities.xclipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = xclip;
+			};
+			name = Debug;
+		};
+		22D2E5E02D574E9500CD773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantum-cities.xclipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = xclip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D2E5AE2D574E9100CD773E /* Build configuration list for PBXProject "xclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2E5D62D574E9500CD773E /* Debug */,
+				22D2E5D72D574E9500CD773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D2E5D82D574E9500CD773E /* Build configuration list for PBXNativeTarget "xclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2E5D92D574E9500CD773E /* Debug */,
+				22D2E5DA2D574E9500CD773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D2E5DB2D574E9500CD773E /* Build configuration list for PBXNativeTarget "xclipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2E5DC2D574E9500CD773E /* Debug */,
+				22D2E5DD2D574E9500CD773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D2E5DE2D574E9500CD773E /* Build configuration list for PBXNativeTarget "xclipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D2E5DF2D574E9500CD773E /* Debug */,
+				22D2E5E02D574E9500CD773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D2E5AB2D574E9100CD773E /* Project object */;
+}
